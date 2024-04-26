@@ -3,16 +3,16 @@ from src.audio import audio_d
 from src.chat import virtual_tutor
 from src.OCR import I_OCR
 from utils.qa import chain
-import numpy as np
-import pandas as pd
-import easyocr
-from PIL import Image
-import cv2
+#import numpy as np
+#import pandas as pd
+#import easyocr
+#from PIL import Image
+#import cv2
 from utils.qa import chain
 import base64
 from src.about import virtual_tutor_markdown as sms
 from src.pdf_up import process_uploaded_file
-from src.pdf import pdf_v
+#from src.pdf import pdf_v
 from langchain.memory import ConversationBufferWindowMemory
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
 
