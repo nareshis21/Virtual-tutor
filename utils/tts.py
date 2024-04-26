@@ -5,7 +5,7 @@ import json
 
 load_dotenv()
 API_KEY = os.getenv("DG_API_KEY")
-AUDIO_FILE=r"C:\Users\Naresh Kumar Lahajal\Desktop\FINAL\media\ouput_file.mp3"
+AUDIO_FILE=r".\media\ouput_file.mp3"
 
 def text_to_speech(llm_response):
     # Define the API endpoint
