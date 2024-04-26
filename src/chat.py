@@ -1,9 +1,6 @@
 import numpy as np
 import pandas as pd
-import easyocr
 import streamlit as st
-from PIL import Image
-import cv2
 import base64
 from utils.qa import chain
 from langchain.memory import ConversationBufferWindowMemory
