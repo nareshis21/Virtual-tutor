@@ -3,7 +3,6 @@ chainlit
 deepgram-sdk
 easyocr
 fastembed
-fastembed
 langchain
 langchain-community
 langchain-groq
