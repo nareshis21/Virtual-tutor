@@ -18,4 +18,4 @@ requests
 streamlit
 streamlit_float
 unstructured[md]
-streamlit_pdf_viewer
+streamlit-pdf-viewer
