@@ -21,9 +21,9 @@ qdrant_api_key = os.getenv("QDRANT_API_KEY")
 
 #to_parse_documents = ["./data/example.pdf", "./data/uber_10q_march_2022.pdf"]
 
-parsed_data_file = r"C:\Users\Naresh Kumar Lahajal\Desktop\FINAL\data\parsed_data.pkl"
-output_md = r"C:\Users\Naresh Kumar Lahajal\Desktop\FINAL\data\output.md"
-loki = r"C:\Users\Naresh Kumar Lahajal\Desktop\FINAL\data"
+parsed_data_file = r".\data\parsed_data.pkl"
+output_md = r".\data\output.md"
+loki = r".\data"
 
 import pickle
 # Define a function to load parsed data if available, or parse if not
