@@ -7,8 +7,8 @@ from utils.stt import speech_to_text
 from utils.tts import text_to_speech
 from utils.qa import chain
 
-recorded_audio = r"C:\Users\Naresh Kumar Lahajal\Desktop\FINAL\media\recorded.mp3"
-output_audio = r"C:\Users\Naresh Kumar Lahajal\Desktop\FINAL\media\ouput_file.mp3"
+recorded_audio = r".\media\recorded.mp3"
+output_audio = r".\media\ouput_file.mp3"
 
 def autoplay_audio(file_path: str):
     with open(file_path, "rb") as f:
