@@ -1,5 +1,4 @@
 import streamlit as st
-import os
 import base64
 from audio_recorder_streamlit import audio_recorder
 from streamlit_float import *
