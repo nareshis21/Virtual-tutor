@@ -18,7 +18,7 @@ from langchain_community.chat_message_histories import StreamlitChatMessageHisto
 
 memory_storage = StreamlitChatMessageHistory(key="chat_messages")
 memory = ConversationBufferWindowMemory(memory_key="chat_history", human_prefix="User", chat_memory=memory_storage, k=3)
-image_bg = r"C:\Users\Naresh Kumar Lahajal\Desktop\FINAL\data\image\freepik-export-20240425023906eVmL.jpeg"
+image_bg = r"image\freepik-export-20240425023906eVmL.jpeg"
 
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
