@@ -12,7 +12,7 @@ from deepgram import (
 load_dotenv()
 
 # Path to the audio file
-AUDIO_FILE = r"C:\Users\Naresh Kumar Lahajal\Desktop\FINAL\media\recorded.mp3"
+AUDIO_FILE = r".\media\recorded.mp3"
 API_KEY = os.getenv("DG_API_KEY")
 
 
